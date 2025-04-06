@@ -1,0 +1,31 @@
+.container-accordion {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+.accordion {
+  background-color: pink;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.7s;
+  border-bottom: 1px solid gainsboro;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgb(179, 179, 179);
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: hotpink;
+  display: none;
+  overflow: hidden;
+  color: #fff;
+}
